@@ -152,11 +152,11 @@ hi Constant          ctermfg=118        guifg=#87ff00       ctermbg=NONE      gu
 hi String            ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Identifier        ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi StorageClass      ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi StorageClass      ctermfg=192        guifg=#dfff87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Language Constructs:
 hi Label             ctermfg=192        guifg=#dfff87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Statement         ctermfg=79        guifg=#5fd7af       ctermbg=NONE       guibg=NONE         cterm=NONE     gui=NONE
+hi Statement         ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Special           ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
