@@ -43,6 +43,6 @@ The screenshots of Arcadia were made and tested using a default Vi IMproved 7.4 
 Related 
 -------
 Feedback, issues or suggestions?. Open an Issue [Arcadia Issues](https://github.com/AlessandroYorba/Arcadia/issues)! Also, if you like Arcadia you might want to check out some of the other Vim themes that I'm working on:
-![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21464544/105be1bc-c935-11e6-88c9-763d83a919ce.png) [Alduin](https://github.com/AlessandroYorba/Alduin)
-![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21464535/ac047602-c934-11e6-92ef-d5cbfb7d1583.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
-![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21464553/68817d84-c935-11e6-9419-9e2537696e2d.png) [Sierra](https://github.com/AlessandroYorba/Sierra)
+* ![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21464544/105be1bc-c935-11e6-88c9-763d83a919ce.png) [Alduin](https://github.com/AlessandroYorba/Alduin)
+* ![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21464535/ac047602-c934-11e6-92ef-d5cbfb7d1583.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
+* ![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21464553/68817d84-c935-11e6-9419-9e2537696e2d.png) [Sierra](https://github.com/AlessandroYorba/Sierra)
