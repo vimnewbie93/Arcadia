@@ -123,7 +123,7 @@ endif
 
 " File Navigation:
 hi Directory         ctermfg=118        guifg=#87ff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Search            ctermfg=147        guifg=#afafff       ctermbg=236       guibg=#303030      cterm=reverse  gui=reverse
+hi Search            ctermfg=147        guifg=#afafff       ctermbg=232       guibg=#080808      cterm=reverse  gui=reverse
 
 " Prompt Status:
 hi Title             ctermfg=151        guifg=#afd7af      ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -142,7 +142,7 @@ hi SignColumn        ctermfg=108        guifg=#87af87       ctermbg=NONE      gu
 hi SpecialKey        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Underlined        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi WarningMsg        ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi MatchParen        ctermfg=230        guifg=#ffffdf       ctermbg=36        guibg=#00af87      cterm=NONE     gui=NONE
+hi MatchParen        ctermfg=232        guifg=#080808       ctermbg=147       guibg=#afafff      cterm=NONE     gui=NONE
 hi Todo              ctermfg=232        guifg=#080808       ctermbg=36        guibg=#00af87      cterm=NONE     gui=NONE
 hi Error             ctermfg=167        guifg=#d75f5f       ctermbg=233       guibg=#121212      cterm=reverse  gui=reverse
 hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE

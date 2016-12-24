@@ -12,7 +12,7 @@ Installation
 There are a few ways to install Arcadia. The first option is by using your favorite vim package manager and the second is by manual download.
 
 ###### Package Manager Option
-| Manager          |                 |                                                                           |
+| Manager          | Location        | Set Up                                                                    |
 |------------------|-----------------|---------------------------------------------------------------------------|
 | Vundle           | add to .vimrc:  | `Plugin 'alessandroyorba/arcadia'`                                         |
 | NeoBundle        | add to .vimrc:  | `NeoBundle 'alessandroyorba/arcadia'`                                      |
@@ -26,7 +26,7 @@ Arcadia Settings
 ---------------
 There are several options that you can enable for Arcadia. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before declaring `colorscheme arcadia`.
 
-| Description                        | Add to .vimrc                            | Screenshot                                                                |
+| Description                        | Set up in .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
 | light gray background              | `colorscheme arcadia`                    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464604/b46c7478-c936-11e6-94c7-0c0d3037d53f.png)|
 | medium gray background             | `let g:arcadia_Sunset = 1`               | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464614/12afa23a-c937-11e6-8b85-6f5053fbe515.png)|
