@@ -28,13 +28,11 @@ There are several options that you can enable for Arcadia. You can activate them
 
 | Description                        | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| light gray background              | `colorscheme arcadia`                    | [Screenshot]()|
-| medium gray background             | `let g:arcadia_Sunset = 1`                | [Screenshot]()|
-| dark  gray background              | `let g:arcadia_Twilight = 1`              | [Screenshot]()|
-| almost black background            | `let g:arcadia_Midnight = 1`              | [Screenshot]()|
-| black as pitch                     | `let g:arcadia_Pitch = 1`                 | [Screenshot]()|
-| Cycles thru modes after 5pm        | `let g:arcadia_Campfire = 1`              | [Screenshot]()|
-| Removes CursorLine background      | `let g:arcadia_Clear_Skies = 1`           | [Screenshot]()| 
+| light gray background              | `colorscheme arcadia`                    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464604/b46c7478-c936-11e6-94c7-0c0d3037d53f.png)|
+| medium gray background             | `let g:arcadia_Sunset = 1`               | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464614/12afa23a-c937-11e6-8b85-6f5053fbe515.png)|
+| dark  gray background              | `let g:arcadia_Twilight = 1`             | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464619/3c5d4362-c937-11e6-8f8d-61af7fde79ee.png)|
+| almost black background            | `let g:arcadia_Midnight = 1`             | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464630/9b4ab404-c937-11e6-9cb3-afc4a3f8cefa.png)|
+| black as pitch                     | `let g:arcadia_Pitch = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464634/dea0ae02-c937-11e6-92b3-acfcf51bd235.png)|
 
 Moar Screenshots
 ----------------
@@ -45,6 +43,6 @@ The screenshots of Arcadia were made and tested using a default Vi IMproved 7.4 
 Related 
 -------
 Feedback, issues or suggestions?. Open an Issue [Arcadia Issues](https://github.com/AlessandroYorba/Arcadia/issues)! Also, if you like Arcadia you might want to check out some of the other Vim themes that I'm working on:
-* ![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21464544/105be1bc-c935-11e6-88c9-763d83a919ce.png) [Alduin](https://github.com/AlessandroYorba/Alduin)
-* ![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21464535/ac047602-c934-11e6-92ef-d5cbfb7d1583.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
-* ![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21464553/68817d84-c935-11e6-9419-9e2537696e2d.png) [Sierra](https://github.com/AlessandroYorba/Sierra)
+![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21464544/105be1bc-c935-11e6-88c9-763d83a919ce.png) [Alduin](https://github.com/AlessandroYorba/Alduin)
+![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21464535/ac047602-c934-11e6-92ef-d5cbfb7d1583.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
+![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21464553/68817d84-c935-11e6-9419-9e2537696e2d.png) [Sierra](https://github.com/AlessandroYorba/Sierra)
