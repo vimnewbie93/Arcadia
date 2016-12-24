@@ -5,6 +5,7 @@ Arcadia
 ```VimL
 colorscheme arcadia
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21464604/b46c7478-c936-11e6-94c7-0c0d3037d53f.png)
 
 
 Installation
