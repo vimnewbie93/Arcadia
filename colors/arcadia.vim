@@ -45,15 +45,21 @@
 
 "Green:
 "================================================================================
+"Foxton         36       #00af87      http://www.colorhexa.com/00af87
 "Fern           65       #5f875f      http://www.colorhexa.com/5f875f
+"Jade           79       #5fd7af      http://www.colorhexa.com/5fd7af
+"Sage           107      #87af5f      http://www.colorhexa.com/87af5f
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
 "Pistachio      118      #87ff00      http://www.colorhexa.com/87ff00
+"Emerald        151      #afd7af      http://www.colorhexa.com/afd7af
 "Lime           191      #dfff5f      http://www.colorhexa.com/dfff5f
+"Parakeet       192      #dfff87      http://www.colorhexa.com/dfff87
 
 "Yellow:
 "================================================================================
 "Dune           187      #dfdfaf      http://www.colorhexa.com/dfdfaf
-"Sand           223      #ffdfaf      http://www.colorhexa.com/ffdfaf
+"Chartreuse     190      #dfff00      http://www.colorhexa.com/dfff00
+"Lemon          226      #ffff00      http://www.colorhexa.com/ffff00
 "Firefly        230      #ffffdf      http://www.colorhexa.com/ffffdf
 
 "Cyan:
@@ -66,6 +72,7 @@
 
 "Purple:
 "================================================================================
+"Wisteria       147     #afafff       http://www.colorhexa.com/afafff
 
 "Orange:
 "================================================================================
@@ -116,10 +123,10 @@ endif
 
 " File Navigation:
 hi Directory         ctermfg=118        guifg=#87ff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Search            ctermfg=147        guifg=#dfdfaf         ctermbg=236      guibg=#303030         cterm=reverse  gui=reverse
+hi Search            ctermfg=147        guifg=#afafff       ctermbg=236       guibg=#303030      cterm=reverse  gui=reverse
 
 " Prompt Status:
-hi Title             ctermfg=151         guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Title             ctermfg=151        guifg=#afd7af      ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -136,7 +143,7 @@ hi SpecialKey        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      gu
 hi Underlined        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi WarningMsg        ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MatchParen        ctermfg=230        guifg=#ffffdf       ctermbg=36        guibg=#00af87      cterm=NONE     gui=NONE
-hi Todo              ctermfg=232        guifg=#080808       ctermbg=36       guibg=#00af87      cterm=NONE     gui=NONE
+hi Todo              ctermfg=232        guifg=#080808       ctermbg=36        guibg=#00af87      cterm=NONE     gui=NONE
 hi Error             ctermfg=167        guifg=#d75f5f       ctermbg=233       guibg=#121212      cterm=reverse  gui=reverse
 hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
@@ -158,14 +165,13 @@ hi PreProc           ctermfg=151        guifg=#afd7af       ctermbg=NONE      gu
 hi Type              ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " HTML:
-hi htmlStatement     ctermfg=36        guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi htmlStatement     ctermfg=36        guifg=#00af87       ctermbg=NONE       guibg=NONE         cterm=NONE     gui=NONE
 hi htmlItalic        ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi htmlArg           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
-"FIXME:
 " Diff:
 hi DiffAdd           ctermfg=234        guifg=#1c1c1c       ctermbg=227       guibg=#ffff5f      cterm=NONE     gui=NONE
-hi DiffChange        ctermfg=234        guifg=#1c1c1c       ctermbg=36       guibg=#00af87      cterm=NONE     gui=NONE
+hi DiffChange        ctermfg=234        guifg=#1c1c1c       ctermbg=36        guibg=#00af87      cterm=NONE     gui=NONE
 hi DiffText          ctermfg=234        guifg=#1c1c1c       ctermbg=151       guibg=#afd7af      cterm=NONE     gui=NONE
 hi DiffDelete        ctermfg=187        guifg=#dfdfaf       ctermbg=167       guibg=#d75f5f      cterm=NONE     gui=NONE
 
@@ -181,34 +187,34 @@ hi SpellRare         ctermfg=208        guifg=#ff8700       ctermbg=NONE      gu
 "================================================================================
 if 1
     " Editor Settings:
-    hi Normal            ctermfg=254        guifg=#e4e4e4         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=245        guifg=#8a8a8a         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi Normal            ctermfg=254        guifg=#e4e4e4         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi LineNr            ctermfg=245        guifg=#8a8a8a         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
+    hi StatusLineNC      ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
+    hi VertSplit         ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
+    hi TabLine           ctermfg=245        guifg=#8a8a8a         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
 
     " Language Constructs:
-    hi Comment           ctermfg=245        guifg=#8a8a8a         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment           ctermfg=245        guifg=#8a8a8a         ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
     " Completion Menu:
     hi WildMenu          ctermfg=236        guifg=#303030         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
     hi PmenuSel          ctermfg=236        guifg=#303030         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi PmenuSbar         ctermfg=239        guifg=#4e4e4e         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
-    hi PmenuThumb        ctermfg=239        guifg=#4e4e4e         ctermbg=239      guibg=#4e4e4e      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=239        guifg=#4e4e4e         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
+    hi PmenuThumb        ctermfg=239        guifg=#4e4e4e         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi Visual            ctermfg=236        guifg=#303030         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
-    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 end
 
@@ -217,35 +223,35 @@ end
 "================================================================================
 if g:arcadia_Sunset
     " Editor Settings:
-    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=244        guifg=#808080         ctermbg=234      guibg=#1c1c1c         cterm=NONE    gui=NONE
-    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi LineNr            ctermfg=244        guifg=#808080         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
+    hi StatusLineNC      ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
+    hi VertSplit         ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
+    hi TabLine           ctermfg=244        guifg=#808080         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
 
     " Language Constructs:
-    hi Comment           ctermfg=244        guifg=#808080         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment           ctermfg=244        guifg=#808080         ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
     " Completion Menu:
     hi WildMenu          ctermfg=235        guifg=#262626         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
     hi PmenuSel          ctermfg=235        guifg=#262626         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi PmenuSbar         ctermfg=238        guifg=#444444         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
-    hi PmenuThumb        ctermfg=238        guifg=#444444         ctermbg=238      guibg=#444444      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=238        guifg=#444444         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
+    hi PmenuThumb        ctermfg=238        guifg=#444444         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi Visual            ctermfg=235        guifg=#262626         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
-    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=235      guibg=#262626      cterm=reverse gui=reverse
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
 end
 
 "================================================================================
@@ -253,35 +259,35 @@ end
 "================================================================================
 if g:arcadia_Twilight
     " Editor Settings:
-    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=243        guifg=#767676         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi LineNr            ctermfg=243        guifg=#767676         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi StatusLineNC      ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi VertSplit         ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi TabLine           ctermfg=243        guifg=#767676         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
 
     " Language Constructs:
-    hi Comment           ctermfg=243        guifg=#767676         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment           ctermfg=243        guifg=#767676         ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
     " Completion Menu:
     hi WildMenu          ctermfg=234        guifg=#1c1c1c         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
     hi PmenuSel          ctermfg=234        guifg=#1c1c1c         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi PmenuSbar         ctermfg=237        guifg=#3a3a3a         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
-    hi PmenuThumb        ctermfg=234        guifg=#3a3a3a         ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=237        guifg=#3a3a3a         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
+    hi PmenuThumb        ctermfg=234        guifg=#3a3a3a         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi Visual            ctermfg=234        guifg=#1c1c1c         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
-    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=234      guibg=#1c1c1c      cterm=reverse gui=reverse
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=234      guibg=#1c1c1c      cterm=reverse  gui=reverse
 end
 
 "================================================================================
@@ -289,35 +295,35 @@ end
 "================================================================================
 if g:arcadia_Midnight
     " Editor Settings:
-    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=242        guifg=#6c6c6c         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#121212      cterm=NONE    gui=NONE
-    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi LineNr            ctermfg=242        guifg=#6c6c6c         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#121212      cterm=NONE     gui=NONE
+    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=242        guifg=#6c6c6c         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=242        guifg=#6c6c6c         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=242        guifg=#6c6c6c         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi StatusLineNC      ctermfg=242        guifg=#6c6c6c         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi VertSplit         ctermfg=242        guifg=#6c6c6c         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi TabLine           ctermfg=242        guifg=#6c6c6c         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 
     " Language Constructs:
-    hi Comment           ctermfg=242        guifg=#6c6c6c         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment           ctermfg=242        guifg=#6c6c6c         ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
     " Completion Menu:
     hi WildMenu          ctermfg=233        guifg=#121212         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
     hi PmenuSel          ctermfg=233        guifg=#121212         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi PmenuSbar         ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi PmenuThumb        ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
+    hi PmenuThumb        ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi Visual            ctermfg=236        guifg=#303030         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
-    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=233      guibg=#121212      cterm=reverse gui=reverse
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=233      guibg=#121212      cterm=reverse  gui=reverse
 end
 
 "================================================================================
@@ -325,41 +331,41 @@ end
 "================================================================================
 if g:arcadia_Pitch
     " Editor Settings:
-    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi LineNr            ctermfg=241        guifg=#626262         ctermbg=233      guibg=#121212         cterm=NONE    gui=NONE
-    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi Normal            ctermfg=188        guifg=#dfdfdf         ctermbg=232      guibg=#080808      cterm=NONE     gui=NONE
+    hi LineNr            ctermfg=241        guifg=#626262         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi StatusLineNC      ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi VertSplit         ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi TabLine           ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi StatusLineNC      ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi VertSplit         ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi TabLine           ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " Language Constructs:
-    hi Comment           ctermfg=241        guifg=#626262         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi Comment           ctermfg=241        guifg=#626262         ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
     " Completion Menu:
     hi WildMenu          ctermfg=232        guifg=#080808         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi PmenuSel          ctermfg=233        guifg=#121212         ctermbg=187      guibg=#dfdfaf      cterm=NONE     gui=NONE
-    hi PmenuSbar         ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi PmenuThumb        ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
+    hi PmenuThumb        ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " Visual Aid:
     hi Visual            ctermfg=232        guifg=#080808         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
-    hi NonText          ctermfg=239         guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi Error            ctermfg=167         guifg=#d75f5f         ctermbg=232      guibg=#080808      cterm=reverse gui=reverse
+    hi NonText          ctermfg=239         guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi Error            ctermfg=167         guifg=#d75f5f         ctermbg=232      guibg=#080808      cterm=reverse  gui=reverse
 end
 
 if g:arcadia_Clear_Skies
     " Editor Settings:
-    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+    hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 end
 
 "================================================================================
