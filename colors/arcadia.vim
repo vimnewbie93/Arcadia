@@ -50,7 +50,7 @@
 "Jade           79       #5fd7af      http://www.colorhexa.com/5fd7af
 "Sage           107      #87af5f      http://www.colorhexa.com/87af5f
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
-"Pistachio      118      #87ff00      http://www.colorhexa.com/87ff00
+"Pistachio      119      #87ff5f      http://www.colorhexa.com/87ff5f
 "Emerald        151      #afd7af      http://www.colorhexa.com/afd7af
 "Lime           191      #dfff5f      http://www.colorhexa.com/dfff5f
 "Parakeet       192      #dfff87      http://www.colorhexa.com/dfff87
@@ -147,7 +147,7 @@ hi Error             ctermfg=167        guifg=#d75f5f       ctermbg=233       gu
 hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Variable Types:
-hi Constant          ctermfg=118        guifg=#87ff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Constant          ctermfg=119        guifg=#87ff5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi String            ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Identifier        ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
