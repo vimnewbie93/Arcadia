@@ -58,7 +58,6 @@
 "Yellow:
 "================================================================================
 "Dune           187      #dfdfaf      http://www.colorhexa.com/dfdfaf
-"Chartreuse     190      #dfff00      http://www.colorhexa.com/dfff00
 "Lemon          226      #ffff00      http://www.colorhexa.com/ffff00
 "Firefly        230      #ffffdf      http://www.colorhexa.com/ffffdf
 
@@ -155,7 +154,7 @@ hi Function          ctermfg=36         guifg=#00af87       ctermbg=NONE      gu
 hi StorageClass      ctermfg=192        guifg=#dfff87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Language Constructs:
-hi Label             ctermfg=192        guifg=#dfff87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Label             ctermfg=192        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Statement         ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Special           ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -167,7 +166,7 @@ hi Type              ctermfg=151        guifg=#afd7af       ctermbg=NONE      gu
 " HTML:
 hi htmlStatement     ctermfg=36        guifg=#00af87       ctermbg=NONE       guibg=NONE         cterm=NONE     gui=NONE
 hi htmlItalic        ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi htmlArg           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi htmlArg           ctermfg=192        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Diff:
 hi DiffAdd           ctermfg=234        guifg=#1c1c1c       ctermbg=227       guibg=#ffff5f      cterm=NONE     gui=NONE
