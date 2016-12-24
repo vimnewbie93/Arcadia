@@ -121,11 +121,11 @@ endif
 "================================================================================
 
 " File Navigation:
-hi Directory         ctermfg=118        guifg=#87ff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Directory         ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Search            ctermfg=147        guifg=#afafff       ctermbg=232       guibg=#080808      cterm=reverse  gui=reverse
 
 " Prompt Status:
-hi Title             ctermfg=151        guifg=#afd7af      ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Title             ctermfg=151        guifg=#afd7af      ctermbg=NONE      guibg=NONE          cterm=NONE     gui=NONE
 hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
