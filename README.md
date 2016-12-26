@@ -45,11 +45,11 @@ Related
 -------
 Feedback, issues or suggestions?. Open an Issue [Arcadia Issues](https://github.com/AlessandroYorba/Arcadia/issues)! Also, if you like Arcadia you might want to check out some of the other Vim themes that I'm working on:  
 
-Alduin
+Alduin  
 [![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21478385/c632e44c-caff-11e6-9b0e-f5eb2a146dbb.png)](https://github.com/AlessandroYorba/Alduin) 
 
-Despacio
+Despacio  
 [![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21478144/5ac3afe0-cafd-11e6-90b2-e19411e3e0a3.png)](https://github.com/AlessandroYorba/Despacio) 
 
-Sierra
+Sierra  
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21478384/c2959122-caff-11e6-9728-6da758989804.png)](https://github.com/AlessandroYorba/Sierra)
