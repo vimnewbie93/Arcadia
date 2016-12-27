@@ -141,7 +141,6 @@ hi SignColumn        ctermfg=108        guifg=#87af87       ctermbg=NONE      gu
 hi SpecialKey        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Underlined        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi WarningMsg        ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi MatchParen        ctermfg=232        guifg=#080808       ctermbg=147       guibg=#afafff      cterm=NONE     gui=NONE
 hi Todo              ctermfg=232        guifg=#080808       ctermbg=36        guibg=#00af87      cterm=NONE     gui=NONE
 hi Error             ctermfg=167        guifg=#d75f5f       ctermbg=233       guibg=#121212      cterm=reverse  gui=reverse
 hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -212,6 +211,7 @@ if 1
     hi PmenuThumb        ctermfg=239        guifg=#4e4e4e         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
 
     " Visual Aid:
+    hi MatchParen        ctermfg=147        guifg=#afafff         ctermbg=239      guibg=#4e4e4e      cterm=NONE     gui=NONE
     hi Visual            ctermfg=236        guifg=#303030         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
@@ -248,6 +248,7 @@ if g:arcadia_Sunset
     hi PmenuThumb        ctermfg=238        guifg=#444444         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
 
     " Visual Aid:
+    hi MatchParen        ctermfg=147        guifg=#afafff         ctermbg=238      guibg=#444444      cterm=NONE     gui=NONE
     hi Visual            ctermfg=235        guifg=#262626         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
@@ -284,6 +285,7 @@ if g:arcadia_Twilight
     hi PmenuThumb        ctermfg=234        guifg=#3a3a3a         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
 
     " Visual Aid:
+    hi MatchParen        ctermfg=147        guifg=#afafff         ctermbg=237      guibg=#3a3a3a      cterm=NONE     gui=NONE
     hi Visual            ctermfg=234        guifg=#1c1c1c         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
     hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=234      guibg=#1c1c1c      cterm=reverse  gui=reverse
@@ -320,6 +322,7 @@ if g:arcadia_Midnight
     hi PmenuThumb        ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
 
     " Visual Aid:
+    hi MatchParen        ctermfg=147        guifg=#afafff         ctermbg=236      guibg=#303030      cterm=NONE     gui=NONE
     hi Visual            ctermfg=236        guifg=#303030         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi Error             ctermfg=167        guifg=#d75f5f         ctermbg=233      guibg=#121212      cterm=reverse  gui=reverse
@@ -356,6 +359,7 @@ if g:arcadia_Pitch
     hi PmenuThumb        ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
     " Visual Aid:
+    hi MatchParen        ctermfg=147        guifg=#afafff         ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi Visual            ctermfg=232        guifg=#080808         ctermbg=191      guibg=#dfff5f      cterm=NONE     gui=NONE
     hi NonText          ctermfg=239         guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
     hi Error            ctermfg=167         guifg=#d75f5f         ctermbg=232      guibg=#080808      cterm=reverse  gui=reverse
