@@ -52,13 +52,13 @@
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
 "Pistachio      119      #87ff5f      http://www.colorhexa.com/87ff5f
 "Emerald        151      #afd7af      http://www.colorhexa.com/afd7af
+"Chartreuse     190      #dfff00      http://www.colorhexa.com/dfff00
 "Lime           191      #dfff5f      http://www.colorhexa.com/dfff5f
 "Parakeet       192      #dfff87      http://www.colorhexa.com/dfff87
 
 "Yellow:
 "================================================================================
 "Dune           187      #dfdfaf      http://www.colorhexa.com/dfdfaf
-"Lemon          226      #ffff00      http://www.colorhexa.com/ffff00
 "Firefly        230      #ffffdf      http://www.colorhexa.com/ffffdf
 
 "Cyan:
@@ -127,8 +127,8 @@ hi Search            ctermfg=147        guifg=#afafff       ctermbg=232       gu
 " Prompt Status:
 hi Title             ctermfg=151        guifg=#afd7af      ctermbg=NONE      guibg=NONE          cterm=NONE     gui=NONE
 hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi MoreMsg           ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Question          ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi MoreMsg           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Question          ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Number Column:
 hi Folded            ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -156,7 +156,7 @@ hi StorageClass      ctermfg=192        guifg=#dfff87       ctermbg=NONE      gu
 hi Label             ctermfg=192        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Statement         ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Special           ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Special           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " C Like:
 hi PreProc           ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
