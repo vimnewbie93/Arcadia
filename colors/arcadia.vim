@@ -140,7 +140,7 @@ hi SignColumn        ctermfg=108        guifg=#87af87       ctermbg=NONE      gu
 " Visual Aid:
 hi SpecialKey        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Underlined        ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi WarningMsg        ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi WarningMsg        ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Todo              ctermfg=232        guifg=#080808       ctermbg=36        guibg=#00af87      cterm=NONE     gui=NONE
 hi Error             ctermfg=167        guifg=#d75f5f       ctermbg=233       guibg=#121212      cterm=reverse  gui=reverse
 hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -155,7 +155,7 @@ hi StorageClass      ctermfg=192        guifg=#dfff87       ctermbg=NONE      gu
 " Language Constructs:
 hi Label             ctermfg=192        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Statement         ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Operator          ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Operator          ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Special           ctermfg=226        guifg=#ffff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " C Like:
