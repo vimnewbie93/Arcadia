@@ -55,6 +55,7 @@
 "Chartreuse     190      #dfff00      http://www.colorhexa.com/dfff00
 "Lime           191      #dfff5f      http://www.colorhexa.com/dfff5f
 "Parakeet       192      #dfff87      http://www.colorhexa.com/dfff87
+"Ocean          194      #dfffdf      http://www.colorhexa.com/dfffdf
 
 "Yellow:
 "================================================================================
@@ -147,7 +148,7 @@ hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      gu
 
 " Variable Types:
 hi Constant          ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi String            ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi String            ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Identifier        ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi StorageClass      ctermfg=192        guifg=#dfff87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
