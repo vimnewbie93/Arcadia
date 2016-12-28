@@ -52,6 +52,7 @@
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
 "Pistachio      119      #87ff5f      http://www.colorhexa.com/87ff5f
 "Emerald        151      #afd7af      http://www.colorhexa.com/afd7af
+"158
 "Chartreuse     190      #dfff00      http://www.colorhexa.com/dfff00
 "Lime           191      #dfff5f      http://www.colorhexa.com/dfff5f
 "Parakeet       192      #dfff87      http://www.colorhexa.com/dfff87
@@ -148,13 +149,13 @@ hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      gu
 
 " Variable Types:
 hi Constant          ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi String            ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi String            ctermfg=158        guifg=#afffd7       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Identifier        ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi StorageClass      ctermfg=192        guifg=#dfff87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Language Constructs:
-hi Label             ctermfg=192        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Label             ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Statement         ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Special           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
