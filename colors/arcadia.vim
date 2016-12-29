@@ -48,7 +48,6 @@
 "Foxton         36       #00af87      http://www.colorhexa.com/00af87
 "Fern           65       #5f875f      http://www.colorhexa.com/5f875f
 "Jade           79       #5fd7af      http://www.colorhexa.com/5fd7af
-"Sage           107      #87af5f      http://www.colorhexa.com/87af5f
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
 "Pistachio      119      #87ff5f      http://www.colorhexa.com/87ff5f
 "Emerald        151      #afd7af      http://www.colorhexa.com/afd7af
@@ -148,8 +147,8 @@ hi Error             ctermfg=167        guifg=#d75f5f       ctermbg=233       gu
 hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Variable Types:
-hi Constant          ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi String            ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Constant          ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi String            ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Identifier        ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi StorageClass      ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -158,15 +157,15 @@ hi StorageClass      ctermfg=151        guifg=#afd7af       ctermbg=NONE      gu
 hi Label             ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Statement         ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Special           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Special           ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " C Like:
 hi PreProc           ctermfg=158        guifg=#afffd7       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Type              ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " HTML:
-hi htmlStatement     ctermfg=36        guifg=#00af87       ctermbg=NONE       guibg=NONE         cterm=NONE     gui=NONE
-hi htmlItalic        ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi htmlStatement     ctermfg=36         guifg=#00af87       ctermbg=NONE       guibg=NONE         cterm=NONE     gui=NONE
+hi htmlItalic        ctermfg=108        guifg=#87af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi htmlArg           ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Diff:
