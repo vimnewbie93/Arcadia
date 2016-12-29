@@ -5,7 +5,7 @@ Arcadia
 ```VimL
 colorscheme arcadia
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21535063/ea09c616-cd24-11e6-97fe-170701ec5d81.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21556686/a9e97546-cdd7-11e6-9387-f36e9b5e5858.png)
 
 
 Installation
@@ -29,11 +29,11 @@ There are several options that you can enable for Arcadia. You can activate them
 
 | Description                        | Set up in .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| light gray background              | `colorscheme arcadia`                    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21535063/ea09c616-cd24-11e6-97fe-170701ec5d81.png)|
-| medium gray background             | `let g:arcadia_Sunset = 1`               | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21535065/f1ddac40-cd24-11e6-8644-981fd932475e.png)|
-| dark  gray background              | `let g:arcadia_Twilight = 1`             | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21535070/f7a76170-cd24-11e6-8309-4b9ac5239b04.png)|
-| almost black background            | `let g:arcadia_Midnight = 1`             | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21535073/fd97efe6-cd24-11e6-99c0-c76c3e5f3fe8.png)|
-| black as pitch                     | `let g:arcadia_Pitch = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21535075/030d8f3a-cd25-11e6-9cd0-bf8f74b7cdb3.png)|
+| light gray background              | `colorscheme arcadia`                    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21556686/a9e97546-cdd7-11e6-9387-f36e9b5e5858.png)|
+| medium gray background             | `let g:arcadia_Sunset = 1`               | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21556687/afe9ca0e-cdd7-11e6-9de7-c68a4cfc0c6d.png)|
+| dark  gray background              | `let g:arcadia_Twilight = 1`             | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21556690/b750ef34-cdd7-11e6-9ee8-97f6cb3d1ca3.png)|
+| almost black background            | `let g:arcadia_Midnight = 1`             | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21556691/bcee8032-cdd7-11e6-91d3-b1c628e085ac.png)|
+| black as pitch                     | `let g:arcadia_Pitch = 1`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21556697/c28328e0-cdd7-11e6-9798-30d23087439a.png)|
 
 Moar Screenshots
 ----------------
