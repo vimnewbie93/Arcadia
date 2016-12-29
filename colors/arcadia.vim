@@ -127,7 +127,7 @@ hi Directory         ctermfg=36         guifg=#00af87       ctermbg=NONE      gu
 hi Search            ctermfg=147        guifg=#afafff       ctermbg=232       guibg=#080808      cterm=reverse  gui=reverse
 
 " Prompt Status:
-hi Title             ctermfg=151        guifg=#afd7af      ctermbg=NONE      guibg=NONE          cterm=NONE     gui=NONE
+hi Title             ctermfg=158        guifg=#afffd7      ctermbg=NONE      guibg=NONE          cterm=NONE     gui=NONE
 hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -149,19 +149,19 @@ hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      gu
 
 " Variable Types:
 hi Constant          ctermfg=107        guifg=#87af5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi String            ctermfg=158        guifg=#afffd7       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi String            ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Identifier        ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=36         guifg=#00af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi StorageClass      ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi StorageClass      ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Language Constructs:
-hi Label             ctermfg=194        guifg=#dfffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Label             ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Statement         ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Operator          ctermfg=79         guifg=#5fd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Special           ctermfg=190        guifg=#dfff00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " C Like:
-hi PreProc           ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi PreProc           ctermfg=158        guifg=#afffd7       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Type              ctermfg=151        guifg=#afd7af       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " HTML:
