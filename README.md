@@ -1,7 +1,7 @@
 Arcadia
 ------
 ###### Arcadia version 1.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21535048/b8cdbd0a-cd24-11e6-9fab-1764ecf512a1.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21557226/13b91b60-cdde-11e6-96d0-7f91b4857734.png)
 ```VimL
 colorscheme arcadia
 ```
