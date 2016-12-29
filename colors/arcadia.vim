@@ -52,7 +52,7 @@
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
 "Pistachio      119      #87ff5f      http://www.colorhexa.com/87ff5f
 "Emerald        151      #afd7af      http://www.colorhexa.com/afd7af
-"158
+"Honeydew       158      #afffd7      http://www.colorhexa.com/afffd7
 "Chartreuse     190      #dfff00      http://www.colorhexa.com/dfff00
 "Lime           191      #dfff5f      http://www.colorhexa.com/dfff5f
 "Parakeet       192      #dfff87      http://www.colorhexa.com/dfff87
