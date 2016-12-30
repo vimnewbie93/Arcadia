@@ -118,6 +118,50 @@ if !exists("g:arcadia_Campfire")
 endif
 
 "================================================================================
+" CAMPFIRE:
+"================================================================================
+if g:arcadia_Campfire
+    let arcadia_Hour = strftime("%H")
+
+    "Day: 7am - 5pm
+    if 7 <= arcadia_Hour && arcadia_Hour < 17
+        let g:arcadia_Sunset = 0
+        let g:arcadia_Twilight = 0
+        let g:arcadia_Midnight = 0
+        let g:arcadia_Pitch = 0
+
+    "Sunset: 5pm - 7pm
+    elseif 17 <= arcadia_Hour && arcadia_Hour < 19
+        let g:arcadia_Sunset = 1
+        let g:arcadia_Twilight = 0
+        let g:arcadia_Midnight = 0
+        let g:arcadia_Pitch = 0
+
+    "Twilight: 7pm - 9pm
+    elseif 19 <= arcadia_Hour && arcadia_Hour < 21
+        let g:arcadia_Sunset = 0
+        let g:arcadia_Twilight = 1
+        let g:arcadia_Midnight = 0
+        let g:arcadia_Pitch = 0
+
+    "Midnight: 9pm - 12am
+    elseif 21 <= arcadia_Hour && arcadia_Hour < 24
+        let g:arcadia_Sunset = 0
+        let g:arcadia_Twilight = 0
+        let g:arcadia_Midnight = 1
+        let g:arcadia_Pitch = 0
+
+    "Pitch: 12am - 7am
+    else
+        let g:arcadia_Sunset = 0
+        let g:arcadia_Twilight = 0
+        let g:arcadia_Midnight = 0
+        let g:arcadia_Pitch = 1
+
+    endif
+end
+
+"================================================================================
 " COMMON SETTINGS:
 "================================================================================
 
@@ -370,48 +414,4 @@ if g:arcadia_Clear_Skies
     " Editor Settings:
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-end
-
-"================================================================================
-" CAMPFIRE:
-"================================================================================
-if g:arcadia_Campfire
-    let arcadia_Hour = strftime("%H")
-
-    "Day: 7am - 5pm
-    if 7 <= arcadia_Hour && arcadia_Hour < 17
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 0
-
-    "Sunset: 5pm - 7pm
-    elseif 17 <= arcadia_Hour && arcadia_Hour < 19
-        let g:arcadia_Sunset = 1
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 0
-
-    "Twilight: 7pm - 9pm
-    elseif 19 <= arcadia_Hour && arcadia_Hour < 21
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 1
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 0
-
-    "Midnight: 9pm - 12am
-    elseif 21 <= arcadia_Hour && arcadia_Hour < 24
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 1
-        let g:arcadia_Pitch = 0
-
-    "Pitch: 12am - 7am
-    else
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 1
-
-    endif
 end
